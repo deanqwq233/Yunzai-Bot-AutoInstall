@@ -15,7 +15,7 @@ bash <(curl -sL https://gitee.com/deanqwq233/Yunzai-Bot-apt-auto-install/raw/mas
 ```
 使用Github源：
 ```
-bash <(curl -sL https://github.com/deanqwq233/Yunzai-Bot-AutoInstall/raw/master/aptver.sh)
+bash <(curl -sL https://raw.githubusercontent.com/deanqwq233/Yunzai-Bot-AutoInstall/main/aptver.sh)
 ```
 
 
