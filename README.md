@@ -10,6 +10,10 @@
 #### 安装教程
 
 ```
+#使用Gitee源：
+bash <(curl -sL https://gitee.com/deanqwq233/Yunzai-Bot-apt-auto-install/raw/master/aptver.sh)
+
+#使用Github源：
 bash <(curl -sL https://gitee.com/deanqwq233/Yunzai-Bot-apt-auto-install/raw/master/aptver.sh)
 ```
 
