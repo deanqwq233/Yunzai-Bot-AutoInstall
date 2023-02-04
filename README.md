@@ -19,6 +19,10 @@ bash <(curl -sL https://raw.githubusercontent.com/deanqwq233/Yunzai-Bot-AutoInst
 ```
 手机Termux用户？
 ```
+使用Gitee源：
+bash <(curl -sL https://gitee.com/deanqwq233/Yunzai-Bot-apt-auto-install/raw/master/temxver.sh)
+
+使用Github源：
 bash <(curl -sL https://raw.githubusercontent.com/deanqwq233/Yunzai-Bot-AutoInstall/main/temxver.sh)
 ```
 
