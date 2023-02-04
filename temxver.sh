@@ -1,12 +1,11 @@
-echo "»¶Ó­Ê¹ÓÃÔÆáÌÒ»¼ü°²×°½Å±¾Termux°æ byÎïÀí°éÄã³É³¤£¡"
-echo "¹ı³ÌÖĞÈç¹ûĞèÒªÄúÊäÈëÃÜÂë¾ÍÇëÊäÈëºó»Ø³µ£¡ÃÜÂëÄ¬ÈÏÒş²ØÊäÈë£¡"
-echo "Èç¹ûÓĞÌáÊ¾[Y/n]ÇëÖ±½Ó°´»Ø³µ£¬Èç¹û[y/N]ÇëÊäÈëYºó»Ø³µ£¡"
-apt update
-apt install npm -y
+echo "æ¬¢è¿ä½¿ç”¨äº‘å´½ä¸€é”®å®‰è£…è„šæœ¬Termuxç‰ˆ byç‰©ç†ä¼´ä½ æˆé•¿ï¼"
+echo "è¿‡ç¨‹ä¸­å¦‚æœéœ€è¦æ‚¨è¾“å…¥å¯†ç å°±è¯·è¾“å…¥åå›è½¦ï¼å¯†ç é»˜è®¤éšè—è¾“å…¥ï¼"
+echo "å¦‚æœæœ‰æç¤º[Y/n]è¯·ç›´æ¥æŒ‰å›è½¦ï¼Œå¦‚æœ[y/N]è¯·è¾“å…¥Yåå›è½¦ï¼"
+apt install npm
 npm install n -g --registry=http://registry.npmmirror.com
 n latest
-apt install redis -y
-apt install git -y
+apt install redis
+apt install git
 cd
 git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 cd Yunzai-Bot
@@ -18,5 +17,5 @@ pnpm install --filter=guoba-plugin
 git clone --depth=1 https://gitee.com/Nwflower/auto-plugin.git ./plugins/auto-plugin/
 git clone --depth=1 https://gitee.com/yeyang52/yenai-plugin.git ./plugins/yenai-plugin
 pnpm add systeminformation -w
-echo "°²×°Íê³É£¡"
-echo "ÈÕºóÆô¶¯ÔÆáÌÒ»¶¨ÒªÏÈÈ·¶¨ÔÚÔÆáÌÎÄ¼ş¼ĞÄÚÖ´ĞĞnode app£¡"
+echo "å®‰è£…å®Œæˆï¼"
+echo "æ—¥åå¯åŠ¨äº‘å´½ä¸€å®šè¦å…ˆç¡®å®šåœ¨äº‘å´½æ–‡ä»¶å¤¹å†…æ‰§è¡Œnode appï¼"
